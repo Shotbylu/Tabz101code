@@ -1,8 +1,0 @@
-[build]
-  publish = "Public"  # Adjust this if your files are in a different directory
-  command = "npm run build"  # Adjust this if you have a different build command
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
